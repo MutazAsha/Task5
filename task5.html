@@ -117,6 +117,65 @@ switch (num) {
     default:
         console.log("PLEASE TRY AGAIN");
 }
+//7
+for(i=0;i<=5;i++)
+{
+alert(`${i}`);
+}
+
+//8
+let p = "";
+for (let i = 0; i <= 5; i++){
+    p += i; 
+}
+window.alert(p);
+
+//9
+let n="";
+for(i=0;i<=20;i++)
+{
+n=i+3;
+}
+window.alert(n);
+
+//10
+let numbar = prompt("Please enter between 0 and 100");
+while(numbar>100 || numbar<0)
+{  
+   numbar=prompt("Plase again input")
+}
+window.alert(numbar); 
+
+//11
+let w = prompt("enter something");
+let y="";
+    if(isNaN(w)){
+    for (let i = w.length-1; i>=0; i--) {
+        y = y +w.charAt(i);
+    }
+    }
+    alert(y); 
+
+    //12
+sum=0;
+let q=prompt("entar nambar :");
+for(i=0;i<=num;i++)
+{
+   sum=sum+i;
+}
+window.alert(sum); 
+
+//13
+sum=0;
+let avg ="";
+let nm=prompt("entar nambar :");
+for(i=0;i<=nm;i++)
+{
+   sum=sum+i;
+   
+}
+avg=sum/i;
+window.alert(avg); 
  </script>
 </body>
 </html>
